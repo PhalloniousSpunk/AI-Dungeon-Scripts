@@ -6,5 +6,4 @@ const modifier = (text) => {
   text = text.replace(/[\r\n](?![^])/gm, "");
   return { text }
 }
-
 modifier(text)
